@@ -1,0 +1,17 @@
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: deepskyblue;
+
+}
+h2 {
+    color: cyan;
+    background-color: aliceblue;
+}
+p {
+    text-align: justify;
+    color: cadetblue;
+}

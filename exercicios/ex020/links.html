@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Personalizados</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            color: midnightblue;
+            text-decoration: none;
+            font-weight: bolder;
+            text-align: justify;
+          
+        }
+
+        a:active {
+            background-color: black;
+        }
+
+        a:hover {
+            color: darkcyan;
+            text-decoration: underline;
+        }
+        a::before {
+            content:"→";
+        }
+                a::after {
+                    content:"	←" ;
+                }
+                div > p {
+            display: none;
+            text-align: center;
+                }
+
+                div:hover {
+                    color: rgb(255, 0, 0);
+                }
+
+                div:hover > p {
+                    display: block;
+                    font-weight: bolder;
+                    font-size: 25px;
+                    background-color: black;
+                }
+    </style>
+</head>
+<body>
+    <h1>Links Personalizados</h1>
+        <ul>
+            <li><a href="https://www.youtube.com/?gl=BR"  target="_blank">Youtube</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/pt-BR/" target="_blank">Tiktok</a></li>
+        </ul>
+        <div style="text-align: center;">
+            Clique aqui
+           <p><em>Parabéns vc ganhou um passaporte para a Puta que te o pariu</em></p>
+
+</body>
+</html>

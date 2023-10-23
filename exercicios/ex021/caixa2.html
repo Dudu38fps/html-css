@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            background-color: #F2F2F2;
+        }
+        header {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: auto;
+            text-align: center;
+            background-color: rgb(170, 171, 172);
+            border: 3px solid black;
+            border-radius: 20px;
+            margin: 25px 150px;
+           
+        }
+    
+        
+        main {
+           margin: auto;
+           text-align: justify;
+        }
+        main > h2 {
+            font-size: 30px;
+            text-align: center;
+            background-color: #6E7372 ;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+        }
+
+        section {
+            margin: 50px 10px;
+            border: solid 4px black;
+            padding: 5px;
+        }
+
+        footer {
+            color: white ;
+            background-color: #000000;
+            text-align: center; }
+           
+
+        nav > a {
+            margin: 70px 1px ;
+            color: white;
+        }
+        nav > a:hover {
+            color: #242335;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Bem vindo!</h1>
+    </header>
+    <main>
+        <h2>temas Principais</h2>
+      <article>
+        <section id="Brasil">
+            <h2>Brasil</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora ipsam maiores architecto debitis dolores, ratione doloribus, distinctio possimus exercitationem, nisi incidunt cumque quasi esse nam similique dolorem eos illo cupiditate!</p>
+        </section>
+      </article>
+      <article>
+        <section id="Futebol">
+            <h2>futebol</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit delectus dolore blanditiis earum modi ipsa eos rem ducimus aliquam. Ut tempore veniam quidem blanditiis necessitatibus molestiae aperiam nesciunt placeat repudiandae?</p>
+        </section>
+      </article>
+    </main>
+    <footer>
+    <p>Criado Por <abbr title="Lindo e Gostoso">Eduardo feliciano</abbr></p>
+   <nav>
+    <a href="@">facebook</a> <br>
+    <a href="@">Instagram</a> <br>
+    <a href="@">Github</a>
+   </nav>
+    </footer>
+</body>
+</html>
