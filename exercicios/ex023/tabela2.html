@@ -13,9 +13,21 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+        caption {
+        font-size: 1.3em;
+        font-weight: bold;
+        background-color: lightskyblue;
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.576);
+        }
+        
         thead, tfoot {
             background-color: dodgerblue;
-            color: aliceblue;
+            color: rgb(255, 255, 255);
+        }
+
+        tr:nth-child(even) {
+            background-color: lightskyblue;
         }
         td,th {
             border: 1px solid black;
@@ -30,10 +42,13 @@
 </head>
 <body>
     <table>
+        <caption>
+            População Brasileira
+        </caption>
         <thead>
            <tr>
-            <th>Estado</th>
-            <th>num de Habitantes </th>
+            <th scope="col">Estado</th>
+            <th scope="col">num de Habitantes </th>
            </tr>
         </thead>
         <tbody>
@@ -82,8 +97,8 @@
         </tbody>
         <tfoot>
                 <tr>
-                    <th>Total</th>
-                    <td class="num"></td>
+                    <th scope="row">Total</th>
+                    <td class="num">151 058 725</td>
                 </tr>
         </tfoot>
     </table>
