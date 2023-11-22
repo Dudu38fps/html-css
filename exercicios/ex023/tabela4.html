@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela </title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    caption {
+        font-size: 1.4em;
+        background-color: navy;
+        color: white;
+    }
+
+    th,td {
+        border: 1px solid black;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .cor1 {
+        background-color: chartreuse;
+    }
+
+    .cor2 {
+        background-color: cadetblue;
+    }
+</style>
+<body>
+    <table>
+        <colgroup>
+        <col class="cor1" span="3">
+        <col class="cor2">
+        </colgroup>
+        <caption>Pessoas</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Eduardo</td>
+            <td>Masculino</td>
+            <td>18</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Ana Clara</td>
+            <td>Feminino</td>
+            <td>19</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Júlia</td>
+            <td>Feminino</td>
+            <td>18</td>
+            <td>Empresária</td>
+        </tr>
+        <tr>
+            <td>Lionel Messi</td>
+            <td>Masculino</td>
+            <td>36</td>
+            <td>Jogador</td>
+        </tr>
+        <tr>
+            <td>João Paulo</td>
+            <td>Masculino</td>
+            <td>25</td>
+            <td>Militar</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
