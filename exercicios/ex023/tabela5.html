@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela responsiva</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th,td {
+            width: 200px;
+            padding: 15px;
+            border: 1px solid black;
+        }
+
+        td:nth-child(odd) {
+            background-color: aqua;
+        }
+
+        th:nth-child(even){
+            background-color: cadetblue;
+        }
+
+        div {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Responsiva</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit repudiandae similique fuga, cumque neque id, earum deserunt consectetur quibusdam ab animi! Eligendi consectetur cupiditate, perspiciatis dignissimos quo perferendis ea esse!</p>
+    <div>
+        <table>
+            <tr>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th>Sab</th>
+                <th>Dom</th>
+            </tr>
+            <tr>
+                <td>Peito</td>
+                <td>Costa</td>
+                <td>Quadriceps</td>
+                <td>Ombro</td>
+                <td>Posterior</td>
+                <td>Braço</td>
+                <td>Abdomem</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
