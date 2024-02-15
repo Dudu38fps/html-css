@@ -7,11 +7,14 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <form action="">
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+    <form action="teste.php" method="get" autocomplete="off" >
+        <p><label for="enome">Nome:</label> <input type="text" name="nome" id="enome"></p>
+        <p><label for="esobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="esobrenome"></p>
+        <p><label for="eidade">Idade:</label> <input type="text" name="idade" id="eidade"></p>
         <input type="submit" value="Enviar">
     </form>
-
+ 
+    <!-- get: Para formulários sem dados sensíveis, com menos de 3 mil letras -->
+    <!-- Post: Para formulários com informações importantes e com mais de 3 mil letras-->
 </body>
 </html>
