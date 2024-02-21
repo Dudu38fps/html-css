@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 2 Formulário</title>
+</head>
+<body>
+    <form action="teste.php" autocomplete="on" method="post">
+        <p><label for="enome">Nome:</label>
+        <input type="text" name="nome" id="enome" required autocomplete="username" size="15" placeholder="1º Nome"></p>
+        <p><label for="esenha">Senha:</label>
+        <input type="password" name="senha" id="esenha" required minlength="7" maxlength="20" autocomplete="current-password" placeholder="Max 20 caracteres"></p>
+        <p><input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"></p>
+    </form>
+</body>
+</html>
