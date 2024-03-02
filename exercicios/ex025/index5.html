@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 5</title>
+</head>
+<body>
+    <form action="teste.php" method="get">
+        <fieldset>
+            <legend>Esporte Favorito</legend>
+            <label for="esfut">Futebol</label>
+            <input type="checkbox" name="esfute" id="esfut" checked value="Fut"><br>
+            <label for="esbas">Basquete</label>
+            <input type="checkbox" name="esbasq" id="esbas" value="Bas"><br>
+            <label for="esvol">Vôlei</label>
+            <input type="checkbox" name="esvole" id="esvol" value="Vo"><br>
+            <label for="esport">E-Sports</label>
+            <input type="checkbox" name="espor" id="esport" value="E"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="sex" id="mas" checked value="M">
+            <label for="fem">feminino</label>
+            <input type="radio" name="sex" id="fem" value="F">
+        </fieldset>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
