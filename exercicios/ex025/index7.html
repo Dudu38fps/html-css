@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="teste.php" method="post">
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+
+            <option value=""selected>---Escolha---</option>
+            <optgroup label="Sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espirito Santo</option>
+            </optgroup>
+
+            <optgroup label="Sul">
+                <option value="RS">Rio grande do Sul</option>
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+            </optgroup> 
+        </select>
+        </p>
+            <p>
+                <label for="iprof">Profissão:</label>
+                <input type="text" name="prof" id="iprof" list="listp">
+                <datalist id="listp">
+                    <option value="dev">Programador</option>
+                    <option value="emp">Empresário</option>
+                    <option value="eng">Engenheiro</option>
+                    <option value="at">Ator</option>
+
+
+                </datalist>
+            </p>
+
+            <p>
+                <label for="imsg">Mensagem:</label>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+
+            <p>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </p>
+        
+        
+    </form>
+</body>
+</html>
