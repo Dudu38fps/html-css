@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    color: rgb(32, 39, 146);
+    text-align: center;
+    
+}
