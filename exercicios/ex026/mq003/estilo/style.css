@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Configurações gerais */
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    color: rgb(32, 39, 146);
+    text-align: center;
+    
+}
+/*Retrato */
+@media screen and (orientation: portrait) {
+    html {
+        background-image: url(../imagens/cev-portrait.jpg);
+        background-position: center bottom;
+    }
+}
+/*Paisagem */
+
+@media screen and (orientation: landscape) {
+    html{
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-position: left bottom;
+    }
+}
