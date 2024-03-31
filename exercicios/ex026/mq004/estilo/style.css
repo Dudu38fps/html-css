@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-image: url(../imagens/back-phone\ -\ Copia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.788);
+    width: 80vw;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 7px;
+    padding: 10px;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.63);
+}
+
+img {
+    display: block;
+    
+}
+
+img#pt {
+    display: none;
+}
+
+img#cl {
+    display: block;
+    
+}
+
+img#tb {
+    display: none;
+}
+
+img#pc {
+    display: none;
+}
+
+img#tv {
+    display: none;
+}
