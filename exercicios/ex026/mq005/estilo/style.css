@@ -7,11 +7,11 @@
 }
 
 html, body {
-    background-color: #3F4161;
+    background-color: #2F2F2F;
 }
 
 header {
-    background-color: #43488B;
+    background-color: #2F2F2F;
 }
 
 header > h1 {
@@ -19,12 +19,25 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+span#menu {
+    background-color: #1E3D59;
     display: block;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+span#menu:hover {
+    background-color: black;
+    color: #3F4161;
+}
+
+menu {
+    display: none;
 }
 
 menu a {
-    background-color:#3A42B6 ;
+    background-color: #1E3D59;
     display: block;
     list-style-type: none;
     padding: 7px;
