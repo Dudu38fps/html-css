@@ -1,14 +1,20 @@
 @charset "UTF-8";
 
 
+div.container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content:  center;
-    align-items: center;
-    width: 400px;
-    margin: auto;
-    
-    
+div#azul {
+    background-color: blue;
+}
+
+div#vermelho {
+    background-color: red;
+}
+
+div#roxo {
+    background-color: purple;
 }
