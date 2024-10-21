@@ -6,17 +6,33 @@ var roxo = document.getElementById('roxo')
 var imagem = document.getElementById('imagem')
 var container = document.getElementById('container')
 
-azul.style.marginLeft = vermelho.offsetLeft + 'px';
-azul.style.marginTop = (vermelho.offsetTop + vermelho.offsetHeight) + 'px';
+azul.style.transition = 'transform 1s ease'
+vermelho.style.transition = 'transform 1s ease'
 
-azul.style.display = 'none'
-vermelho.style.display = 'none'
-roxo.style.alignSelf = 'center'
-roxo.style.backgroundColor = 'purple'
-container.style.flexDirection = 'column'
-container.style.alignItems = 'center'
+azul.style.transform = 'translate(22vw, 0)'
+vermelho.style.transform = 'translate(-22vw, 0)'
 
+setTimeout(() => {
+    azul.style.display = 'none'
+    vermelho.style.display = 'none'
+    roxo.style.alignSelf = 'center'
+    roxo.style.backgroundColor = 'purple'
+    container.style.flexDirection = 'column'
+    container.style.alignItems = 'center'
+    imagem.style.display = 'block';    
+}, 2000)
 
-imagem.style.display = 'block';
+document.addEventListener("DOMContentLoaded", () => {
+    var azul = document.getElementById('azul')
+    var vermelho = document.getElementById('vermelho')
+
+    function esferas() {
+        azul.style.transform = 'translate(22vw, 0)';
+        vermelho.style.transform = 'translate(-22vw, 0)';
+    }
+
+    setTimeout(esferas, 2000)
+})
 
 }
+
